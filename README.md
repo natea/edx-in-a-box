@@ -14,7 +14,15 @@ Once you download the script and double-click on it, the script will do the foll
     * Start the newly installed/configured VM
     * Print a message of what to do next, and where to find more docs
 
-Note: The script has the extension .tool which on MacOSX makes it clickable as an executable file. Linux users can rename this to edx-installer.sh and run it with bash::
+
+## Mac users
+The script has the extension .tool which on MacOSX makes it clickable as an executable file.
+
+The files will be copied to the ~/mitvm-vagrant directory on your computer, so on a Mac this will be ```/Users/<username>/mitvm-vagrant```
+
+## Linux users
+
+Linux users can rename this to edx-installer.sh and run it with bash::
 
 	$ mv edx-installer.tool edx-installer.sh
 	$ chmod +x edx-installer.sh
